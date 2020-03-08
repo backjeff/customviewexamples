@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BaseCustomView">
+        <!--<attr name="isEnabled" format="boolean" />-->
+        <!--<attr name="state" format="enum">
+            <enum name="enabled" value="0" />
+            <enum name="disabled" value="1" />
+        </attr>-->
+        <attr name="title" format="string" />
+        <attr name="description" format="string" />
+    </declare-styleable>
+
+</resources>
