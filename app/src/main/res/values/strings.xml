@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CustomViewExamples</string>
+    <string name="fragment_title_custom_radio_group">CustomRadioGroup</string>
 </resources>

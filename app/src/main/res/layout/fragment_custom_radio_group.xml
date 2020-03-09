@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.backjeff.customviewexamples.ui.fragment.CustomRadioGroupFragment">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/default_app_bar_layout" />
+
+    <io.backjeff.customviewexamples.common.customview.CustomRadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarInclude">
+
+        <io.backjeff.customviewexamples.common.customview.CustomRadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:description="Description of item Laaa"
+            app:title="Laaa" />
+
+        <io.backjeff.customviewexamples.common.customview.CustomRadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:description="Description of item Leee"
+            app:title="Leee" />
+
+        <io.backjeff.customviewexamples.common.customview.CustomRadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:description="Description of item Liii"
+            app:title="Liii" />
+
+    </io.backjeff.customviewexamples.common.customview.CustomRadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

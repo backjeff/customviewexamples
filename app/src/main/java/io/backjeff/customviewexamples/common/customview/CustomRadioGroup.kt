@@ -1,4 +1,4 @@
-package io.backjeff.customviewexamples.customview
+package io.backjeff.customviewexamples.common.customview
 
 import android.content.Context
 import android.util.AttributeSet

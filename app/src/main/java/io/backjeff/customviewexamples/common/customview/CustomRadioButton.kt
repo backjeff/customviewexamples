@@ -1,4 +1,4 @@
-package io.backjeff.customviewexamples.customview
+package io.backjeff.customviewexamples.common.customview
 
 import android.content.Context
 import android.util.AttributeSet
@@ -27,17 +27,17 @@ class CustomRadioButton @JvmOverloads constructor(
     private fun setupStyleable() {
         context.theme.obtainStyledAttributes(
             attrs,
-            R.styleable.BaseCustomView,
+            R.styleable.CustomRadioButton,
             defStyle,
             0
         ).apply {
             try {
 
-                getString(R.styleable.BaseCustomView_title).also {
+                getString(R.styleable.CustomRadioButton_title).also {
                     titleTextView.text = it
                 }
 
-                getString(R.styleable.BaseCustomView_description).also {
+                getString(R.styleable.CustomRadioButton_description).also {
                     descriptionTextView.text = it
                 }
 
